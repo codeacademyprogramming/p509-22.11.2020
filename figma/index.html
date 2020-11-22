@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap">
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<style>
+		.box {
+			display: flex;
+
+		}
+		.box div:first-child {
+			order: 5;
+		}
+
+		.box div:last-child {
+			order: 1;
+		}
+	</style>
+</head>
+
+<body>
+
+	<div class="box">
+		<div><a href="#">1</a></div>
+		<div><a href="#">2</a></div>
+		<div><a href="#">3</a></div>
+		<div><a href="#">4</a></div>
+		<div><a href="#">5</a></div>
+	</div>
+
+
+	<header>
+		<img class="logo" src="./img/logo.svg" alt="Logo">
+		<nav>
+			<ul>
+				<li><a href="/features">Features</a></li>
+				<li><a href="/pricing">Pricing</a></li>
+				<li><a href="/contacts">Contacts</a></li>
+			</ul>
+		</nav>
+		<div class="buttons">
+			<a class="link" href="/log-in">Log in</a>
+			<a class="primary-button" href="/start-now">Start now</a>
+		</div>
+	</header>
+	<!-- <header class="clearfix">
+		<img class="logo" src="./img/logo.svg" alt="Logo">
+		<nav>
+			<ul>
+				<li><a href="/features">Features</a></li>
+				<li><a href="/pricing">Pricing</a></li>
+				<li><a href="/contacts">Contacts</a></li>
+			</ul>
+		</nav>
+		<div class="buttons">
+			<a class="link" href="/log-in">Log in</a>
+			<a class="primary-button" href="/start-now">Start now</a>
+		</div>
+	</header> -->
+	<!-- <header class="clearfix">
+		<div class="row">
+			<div class="col-1">
+				<img class="logo" src="./img/logo.svg" alt="Logo">
+			</div>
+			<div class="col-3"></div>
+			<div class="col-3">
+				<nav>
+					<ul>
+						<li><a href="/features">Features</a></li>
+						<li><a href="/pricing">Pricing</a></li>
+						<li><a href="/contacts">Contacts</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="col-3"></div>
+			<div class="col-2">
+				<div class="buttons">
+					<a class="link" href="/log-in">Log in</a>
+					<a class="primary-button" href="/start-now">Start now</a>
+				</div>
+			</div>
+		</div>
+
+
+	</header> -->
+	<!-- <header class="clearfix">
+		<div class="row">
+			<div class="col-3">
+				<img class="logo" src="./img/logo.svg" alt="Logo">
+			</div>
+			<div class="col-6">
+				<nav>
+					<ul>
+						<li><a href="/features">Features</a></li>
+						<li><a href="/pricing">Pricing</a></li>
+						<li><a href="/contacts">Contacts</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="col-3">
+				<div class="buttons">
+					<a class="link" href="/log-in">Log in</a>
+					<a class="primary-button" href="/start-now">Start now</a>
+				</div>
+			</div>
+		</div>
+	</header> -->
+	<main>
+		<section class="main-section">
+			<h1>Simplify your online shipping for free this month!</h1>
+			<p>Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum. At nam minimum ponderum. Est audiam animal molestiae te.</p>
+			<div class="main-section-buttons">
+				<a id="test" class="primary-button" href="/">Start free trial</a>
+				<a class="secondary-button" href="/">Learn more</a>
+			</div>
+		</section>
+
+		<section class="shipping-section">
+			<div class="container">
+				<h1>Grow your business with better Shipping</h1>
+				<p>We help the world’s leading organizations follow their shipping</p>
+				<div class="row">
+					<div class="col-4">
+						<div class="shipping-item">
+							<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M24.5 10.5C24.1946 10.8115 24.0235 11.2304 24.0235 11.6666C24.0235 12.1029 24.1946 12.5218 24.5 12.8333L27.1666 15.5C27.4782 15.8054 27.8971 15.9764 28.3333 15.9764C28.7696 15.9764 29.1884 15.8054 29.5 15.5L35.7833 9.21664C36.6214 11.0686 36.8751 13.132 36.5107 15.1319C36.1464 17.1317 35.1812 18.9731 33.7438 20.4104C32.3064 21.8478 30.4651 22.813 28.4652 23.1774C26.4654 23.5418 24.402 23.288 22.55 22.45L11.0333 33.9666C10.3703 34.6297 9.47099 35.0022 8.53331 35.0022C7.59562 35.0022 6.69635 34.6297 6.03331 33.9666C5.37026 33.3036 4.99777 32.4043 4.99777 31.4666C4.99777 30.529 5.37026 29.6297 6.03331 28.9666L17.55 17.45C16.7119 15.598 16.4582 13.5346 16.8225 11.5347C17.1869 9.53488 18.1521 7.69357 19.5895 6.25618C21.0269 4.81879 22.8682 3.85359 24.8681 3.48921C26.8679 3.12484 28.9313 3.37858 30.7833 4.21664L24.5166 10.4833L24.5 10.5Z"
+									stroke="#3C64B1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+							<img src="./img/tool.svg" alt="">
+
+							<span class="icon"></span>
+							<h2>Shipping communication</h2>
+							<p>At eripuit signiferumque sea, vel ad mucius molestie, cu labitur iuvaret vulputate sed.</p>
+							<a class="link" href="/discover">Discover</a>
+						</div>
+					</div>
+					<div class="col-4">
+						<div class="shipping-item">
+							<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M24.5 10.5C24.1946 10.8115 24.0235 11.2304 24.0235 11.6666C24.0235 12.1029 24.1946 12.5218 24.5 12.8333L27.1666 15.5C27.4782 15.8054 27.8971 15.9764 28.3333 15.9764C28.7696 15.9764 29.1884 15.8054 29.5 15.5L35.7833 9.21664C36.6214 11.0686 36.8751 13.132 36.5107 15.1319C36.1464 17.1317 35.1812 18.9731 33.7438 20.4104C32.3064 21.8478 30.4651 22.813 28.4652 23.1774C26.4654 23.5418 24.402 23.288 22.55 22.45L11.0333 33.9666C10.3703 34.6297 9.47099 35.0022 8.53331 35.0022C7.59562 35.0022 6.69635 34.6297 6.03331 33.9666C5.37026 33.3036 4.99777 32.4043 4.99777 31.4666C4.99777 30.529 5.37026 29.6297 6.03331 28.9666L17.55 17.45C16.7119 15.598 16.4582 13.5346 16.8225 11.5347C17.1869 9.53488 18.1521 7.69357 19.5895 6.25618C21.0269 4.81879 22.8682 3.85359 24.8681 3.48921C26.8679 3.12484 28.9313 3.37858 30.7833 4.21664L24.5166 10.4833L24.5 10.5Z"
+									stroke="#3C64B1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+							<img src="./img/briefcase.svg" alt="">
+							<span class="icon"></span>
+							<h2>Shipping communication</h2>
+							<p>At eripuit signiferumque sea, vel ad mucius molestie, cu labitur iuvaret vulputate sed.</p>
+							<a class="link" href="/discover">Discover</a>
+						</div>
+					</div>
+					<div class="col-4">
+						<div class="shipping-item">
+							<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M24.5 10.5C24.1946 10.8115 24.0235 11.2304 24.0235 11.6666C24.0235 12.1029 24.1946 12.5218 24.5 12.8333L27.1666 15.5C27.4782 15.8054 27.8971 15.9764 28.3333 15.9764C28.7696 15.9764 29.1884 15.8054 29.5 15.5L35.7833 9.21664C36.6214 11.0686 36.8751 13.132 36.5107 15.1319C36.1464 17.1317 35.1812 18.9731 33.7438 20.4104C32.3064 21.8478 30.4651 22.813 28.4652 23.1774C26.4654 23.5418 24.402 23.288 22.55 22.45L11.0333 33.9666C10.3703 34.6297 9.47099 35.0022 8.53331 35.0022C7.59562 35.0022 6.69635 34.6297 6.03331 33.9666C5.37026 33.3036 4.99777 32.4043 4.99777 31.4666C4.99777 30.529 5.37026 29.6297 6.03331 28.9666L17.55 17.45C16.7119 15.598 16.4582 13.5346 16.8225 11.5347C17.1869 9.53488 18.1521 7.69357 19.5895 6.25618C21.0269 4.81879 22.8682 3.85359 24.8681 3.48921C26.8679 3.12484 28.9313 3.37858 30.7833 4.21664L24.5166 10.4833L24.5 10.5Z"
+									stroke="#3C64B1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+							<img src="./img/life buoy.svg" alt="">
+
+							<span class="icon"></span>
+							<h2>Shipping communication</h2>
+							<p>At eripuit signiferumque sea, vel ad mucius molestie, cu labitur iuvaret vulputate sed.</p>
+							<a class="link" href="/discover">Discover</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</main>
+</body>
+
+</html>

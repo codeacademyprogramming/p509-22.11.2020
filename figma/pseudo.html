@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		button {
+			position: relative;
+			padding: 12px;
+			border: 0;
+			font-size: 41px;
+			color: #fff;
+			background-color: rgb(10, 54, 10);
+			border: 1px solid rgb(10, 54, 10);
+		}
+
+		button::before,
+		button::after {
+			content: '';
+			position: absolute;
+			width: 0;
+			height: 0;
+			border-style: solid;
+		}
+
+		button::before {
+			left: 0;
+			top: 0;
+			border-width: 10px 10px 0 0;
+			border-color: #fff transparent transparent transparent;
+		}
+
+		button::after {
+			right: 0;
+			bottom: 0;
+			border-width: 0 0 10px 10px;
+			border-color: transparent transparent #fff transparent;
+		}
+	</style>
+</head>
+
+<body>
+
+	<button>Salam</button>
+</body>
+
+</html>
